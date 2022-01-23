@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Stock Market", "Stock Market\Stock Market.vbproj", "{90AC94C5-E485-4B3F-BEB2-CC1FD2FF8BAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90AC94C5-E485-4B3F-BEB2-CC1FD2FF8BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AC94C5-E485-4B3F-BEB2-CC1FD2FF8BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AC94C5-E485-4B3F-BEB2-CC1FD2FF8BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AC94C5-E485-4B3F-BEB2-CC1FD2FF8BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC80723C-991F-4BCB-98B5-411CCFF59C01}
+	EndGlobalSection
+EndGlobal

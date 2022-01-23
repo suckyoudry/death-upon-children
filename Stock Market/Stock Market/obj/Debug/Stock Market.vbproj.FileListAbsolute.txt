@@ -1,0 +1,26 @@
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.exe.config
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.exe
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.pdb
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.xml
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbprojAssemblyReference.cache
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbproj.ResolveComReference.cache
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock_Market.Form1.resources
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock_Market.Resources.resources
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbproj.GenerateResource.cache
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbproj.CoreCompileInputs.cache
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.exe
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.xml
+R:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.pdb
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.exe.config
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.exe
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.pdb
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.xml
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbprojAssemblyReference.cache
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbproj.ResolveComReference.cache
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock_Market.Form1.resources
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock_Market.Resources.resources
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbproj.GenerateResource.cache
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbproj.CoreCompileInputs.cache
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.exe
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.xml
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.pdb
