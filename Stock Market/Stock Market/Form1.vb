@@ -8,12 +8,20 @@ Public Class Form1
     Dim IndexClosingPrice(4, 100) As Decimal
     Dim IndexAdjClose(4, 100) As Decimal
     Dim IndexVolume(4, 100) As Decimal
+
     Dim sharename(10) As String
     Dim Sharedates(10, 100) As String
     Dim ClosingPrice(10, 100) As Decimal
     Dim Highprice(10, 100) As Decimal
     Dim Lowprice(10, 100) As Decimal
     Dim Openprice(10, 100) As Decimal
+
+    Dim FiveDayShare(10, 5) As Decimal
+    Dim ShareAVG(10) As Decimal
+
+    Dim FiveDayFTSE(1, 5) As Decimal
+    Dim FTSEAVG(1) As Decimal
+
     Dim xpos As Integer
     Dim temparea As String
 
@@ -139,7 +147,42 @@ Public Class Form1
         xlWorkBook.Close()
         xlApp.Quit()
 
+        FiveDayShareAVG()
+
+        FiveDayFTSEAVG()
     End Sub
+
+    Function FiveDayShareAVG() As Decimal
+        ' this functions is going to get the 5 day average of the chosen share
+        For i = 1 To 10
+            For n = 1 To 5
+
+                FiveDayShare(i, n) = ClosingPrice(i, n)
+                ShareAVG(i) += FiveDayShare(i, n)
+
+            Next
+
+            ShareAVG(i) = ShareAVG(i) / 5
+        Next
+
+        Return FiveDayShareAVG
+    End Function
+
+    Function FiveDayFTSEAVG() As Decimal
+        ' going to give the average of the FTSE index over the course of 5 days
+        For i = 1 To 1
+            For n = 1 To 5
+
+                FiveDayFTSE(i, n) = IndexClosingPrice(i, n)
+                FTSEAVG(i) += FiveDayFTSE(i, n)
+
+            Next
+
+            FTSEAVG(i) = FTSEAVG(i) / 5
+        Next
+
+        Return FiveDayFTSEAVG
+    End Function
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
@@ -150,7 +193,7 @@ Public Class Form1
             xpos = xpos + 1
         Next
 
-        MsgBox(sharename(4))
+        MsgBox(FTSEAVG(1))
 
     End Sub
 End Class

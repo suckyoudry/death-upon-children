@@ -15,7 +15,6 @@ Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Mar
 Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.exe
 Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.pdb
 Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\bin\Debug\Stock Market.xml
-Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbprojAssemblyReference.cache
 Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbproj.ResolveComReference.cache
 Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock_Market.Form1.resources
 Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock_Market.Resources.resources
@@ -24,3 +23,5 @@ Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Mar
 Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.exe
 Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.xml
 Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.pdb
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbproj.AssemblyReference.cache
+Z:\Fullbrook A-Levels\Computer Science\computing project\practice code\Stock Market\Stock Market\obj\Debug\Stock Market.vbproj.SuggestedBindingRedirects.cache
