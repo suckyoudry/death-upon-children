@@ -22,6 +22,11 @@ Public Class Form1
     Dim FiveDayFTSE(1, 5) As Decimal
     Dim FTSEAVG(1) As Decimal
 
+    Dim FTSETrend As Decimal
+    Dim DJTrend As Decimal
+    Dim HSTrend As Decimal
+    Dim NTrend As Decimal
+
     Dim xpos As Integer
     Dim temparea As String
 
@@ -148,8 +153,11 @@ Public Class Form1
         xlApp.Quit()
 
         FiveDayShareAVG()
-
         FiveDayFTSEAVG()
+
+
+        FTSEOvernightTrend()
+        DowJonesOvernightTrend()
     End Sub
 
     Function FiveDayShareAVG() As Decimal
@@ -184,6 +192,34 @@ Public Class Form1
         Return FiveDayFTSEAVG
     End Function
 
+    Function FTSEOvernightTrend() As Decimal
+
+        FTSETrend = ((IndexClosingPrice(1, 2) - IndexClosingPrice(1, 2 + 1)) / IndexClosingPrice(1, 2 + 1)) * 100
+
+        Return FTSEOvernightTrend
+    End Function
+
+    Function DowJonesOvernightTrend() As Decimal
+
+        DJTrend = ((IndexClosingPrice(2, 2) - IndexClosingPrice(2, 2 + 1)) / IndexClosingPrice(2, 2 + 1))
+
+        Return DowJonesOvernightTrend
+    End Function
+
+    Function HangSengOvernightTrend() As Decimal
+
+        HSTrend = ((IndexClosingPrice(3, 1) - IndexClosingPrice(3, 1 + 1)) / IndexClosingPrice(3, 1 + 1))
+
+        Return HangSengOvernightTrend
+    End Function
+
+    Function NikkeiOvernightTrend() As Decimal
+
+        HSTrend = ((IndexClosingPrice(4, 1) - IndexClosingPrice(4, 1 + 1)) / IndexClosingPrice(4, 1 + 1))
+
+        Return NikkeiOvernightTrend
+    End Function
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         xpos = 1
@@ -193,7 +229,9 @@ Public Class Form1
             xpos = xpos + 1
         Next
 
-        MsgBox(FTSEAVG(1))
+        Me.ShareAverage.Text = (ShareAVG(1))
+        Me.FTSEAverage.Text = (FTSEAVG(1))
 
+        Me.FTSETrendText.Text = (FTSETrend)
     End Sub
 End Class
